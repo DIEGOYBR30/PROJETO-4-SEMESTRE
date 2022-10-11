@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Início - Tela de Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class="fundodegrade">
+    <div class="startparent">
+        <div class="startdiv1">
+        <h1><b>Você tem uma coleção de camiseta de time?</b></h1>
+        <p>Faça parte do nosso clube de colecionadores e compartilhe as suas camisas preferidas e mais raras que você tem na sua coleção.</p>
+        </div>
+        <div class="startdiv2">&nbsp;</div>
+    </div>
+    <h1 class="titulo">Bem-vindo(a) ao nosso site!</h1>
+    <section class="flex-grid-thirds">
+        <div class="col">
+            <form method="post" action="cadastro.php">
+                <h3>Não possui cadastro? Cadastre-se!</h3>
+                <label for="fname">Usuário</label>
+                <input type="text" id="user" name="user" placeholder="Digite um novo usuário" required>
+        
+                <label for="pass">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite uma nova senha(mínimo 8 caracteres)" minlength="8" size="8" required>
+                <label for="conpass">Confirme a senha</label>
+                <input type="password" id="confpassword" name="confpassword" placeholder="Digite a senha novamente">
+        
+                <label for="country">Estado</label>
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+            
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+        <div class="col">
+            <form action="">
+                <h3>Já possui conta? Faça o login!</h3>
+                <label for="fname">Usuário</label>
+                <input type="text" id="user" name="user" placeholder="Digite seu usuário">
+        
+                <label for="lname">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha">
+        
+        
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+    </section>
+    <footer style="background-color: black;">Entre em contato</footer>
+
+    
+</body>
+</html>
