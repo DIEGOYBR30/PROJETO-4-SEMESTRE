@@ -1,0 +1,112 @@
+.fundodegrade{
+    background: linear-gradient(120deg, #000000, #150050, #3F0071, #FB2576);
+    background-size: 300% 300%;
+    animation: color 15s ease infinite;
+    margin: unset;
+  }
+  @keyframes color {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  .flex-grid-thirds {
+    display: flex;
+    margin-bottom: 3%;
+  }
+  .flex-grid-thirds .col {
+    width: 100%;
+    padding: 2%;
+    margin: 0% 3%;
+  }
+  @media (max-width: 500px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: grid;
+      text-align: center;
+      margin-right: 5%;
+  }
+  .col {
+    width: 100%;
+    margin-right: 2%;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .col {
+      margin: 1% auto;
+      border-radius: 15px;
+      background-color: #fb257777;
+      padding: 20px;
+  }
+  input[type=text], select, [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #3F0071;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2c0050;
+  }
+  
+  body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  .titulo{
+    text-align: center;
+    margin: 5%;
+    color: white;
+  }
+  .startparent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 5% 0;
+  }
+  .startdiv1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 5%;
+    margin-right: 25%;
+  }
+  .startdiv2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-image: url(images/colecao.png);
+    height: 100%;
+  }
+  
