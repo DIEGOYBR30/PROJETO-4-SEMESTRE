@@ -16,61 +16,33 @@
 <body class="fundodegrade">
     <div class="startparent">
         <div class="startdiv1">
-        <h1><b>Você tem uma coleção de camiseta de time?</b></h1>
-        <p>Faça parte do nosso clube de colecionadores e compartilhe as suas camisas preferidas e mais raras que você tem na sua coleção.</p>
+        <h1><b>Você está procurando por armazenamento na nuvem?</b></h1>
+        <p>Faça o seu cadastro no site para ter acesso aos nossos produtos e serviços e comece a salvar seus arquivos na nuvem.</p>
         </div>
         <div class="startdiv2">&nbsp;</div>
     </div>
     <h1 class="titulo">Bem-vindo(a) ao nosso site!</h1>
     <section class="flex-grid-thirds">
         <div class="col">
-            <form method="post" action="cadastro.php">
+            <form method="post" action="processocadastro.php">
                 <h3>Não possui cadastro? Cadastre-se!</h3>
-                <label for="fname">Usuário</label>
-                <input type="text" id="user" name="user" placeholder="Digite um novo usuário" required>
-        
-                <label for="pass">Senha</label>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                
+                <label for="password">Senha</label>
                 <input type="password" id="password" name="password" placeholder="Digite uma nova senha(mínimo 8 caracteres)" minlength="8" size="8" required>
-                <label for="conpass">Confirme a senha</label>
+                <label for="confpassword">Confirme a senha</label>
                 <input type="password" id="confpassword" name="confpassword" placeholder="Digite a senha novamente">
         
-                <label for="country">Estado</label>
-                <select id="estado" name="estado">
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                    <option value="EX">Estrangeiro</option>
-                </select>
             
                 <input type="submit" value="Cadastrar">
             </form>
         </div>
         <div class="col">
-            <form action="">
+            <form action="" method="post">
                 <h3>Já possui conta? Faça o login!</h3>
                 <label for="fname">Usuário</label>
                 <input type="text" id="user" name="user" placeholder="Digite seu usuário">

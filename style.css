@@ -1,5 +1,5 @@
 .fundodegrade{
-    background: linear-gradient(120deg, #000000, #150050, #3F0071, #FB2576);
+    background: linear-gradient(120deg, #051367, #242F9B, #5D8BF4, #DFF6FF);
     background-size: 300% 300%;
     animation: color 15s ease infinite;
     margin: unset;
@@ -46,10 +46,10 @@
   .col {
       margin: 1% auto;
       border-radius: 15px;
-      background-color: #fb257777;
+      background-color: #002B5B;
       padding: 20px;
   }
-  input[type=text], select, [type=password] {
+  input[type=text], select, [type=password], [type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -61,7 +61,7 @@
   
   input[type=submit] {
     width: 100%;
-    background-color: #3F0071;
+    background-color: #1363DF;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -71,7 +71,7 @@
   }
   
   input[type=submit]:hover {
-    background-color: #2c0050;
+    background-color: #47B5FF;
   }
   
   body{
@@ -106,7 +106,7 @@
     grid-area: 1 / 2 / 2 / 3; 
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     background-size: cover;
-    background-image: url(images/colecao.png);
+    background-image: url(images/cloud.jpg);
     height: 100%;
   }
   
